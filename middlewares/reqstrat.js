@@ -1,0 +1,1 @@
+module.exports = (req,res,next)=>{req.reqDate = new Date(Date.now()).toUTCString(); next();}
